@@ -9,13 +9,13 @@ Git-GPT is a versatile CLI tool designed to auto-generate git commit messages, i
 Install `git-gpt` via pip:
 
 ```bash
-pip install git+https://github.com/ShinChven/git-gpt.git
+pip install git+https://github.com/zjywill/git-gpt.git
 ```
 
 Upgrade:
 
 ```bash
-pip install --upgrade git+https://github.com/ShinChven/git-gpt.git
+pip install --upgrade git+https://github.com/zjywill/git-gpt.git
 ```
 
 ## Development
@@ -23,7 +23,7 @@ pip install --upgrade git+https://github.com/ShinChven/git-gpt.git
 To set up the development environment:
 
 ```bash
-git clone https://github.com/ShinChven/git-gpt.git
+git clone https://github.com/zjywill/git-gpt.git
 cd git-gpt
 python -m venv venv
 source venv/bin/activate
