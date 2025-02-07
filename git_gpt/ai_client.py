@@ -44,7 +44,7 @@ class AIClient:
         else:
             raise ValueError(f"Unsupported provider: {provider}")
 
-    def _remove_think_tags(text):
+    def _remove_think_tags(self, text):
         return re.sub(r"<think>.*?</think>", "", text, flags=re.DOTALL).strip()
 
     def _openai_request(self, messages, model_config, max_tokens):
