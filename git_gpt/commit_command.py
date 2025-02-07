@@ -54,7 +54,7 @@ def commit(lang, model, run_dry):
     config = get_config()
 
     # If arguments are not provided via command line, try to get them from the config file
-    lang = lang or config.get('lang', 'English')
+    lang = lang or config.get('lang', 'Chinese')
     model = model or config.get('default_model')
 
     if not model:
